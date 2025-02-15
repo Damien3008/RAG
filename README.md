@@ -33,6 +33,25 @@
 - Python 3.11+
 - Google API key ([Get it here](https://makersuite.google.com/app/apikey))
 
+### Document Placement
+
+You can add documents in two ways:
+
+1. **Through the Web Interface**
+   - Use the drag & drop interface
+   - Maximum 16MB per file
+
+2. **Manual Placement**
+   ```bash
+   # Place PDF files directly in the docs folder
+   project_root/
+   └── docs/
+       ├── document1.pdf
+       ├── document2.pdf
+       └── ...
+   ```
+   The system will automatically process any PDF files in the docs folder on startup.
+
 ### Installation
 
 1. **Setup Environment**
